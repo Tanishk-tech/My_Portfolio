@@ -1,0 +1,712 @@
+<!-- https://wweverma1.github.io/index.html -->
+<!-- https://elementor.com/library/template-kit/cv-portfolio/preview/ -->
+<!-- Command to run locally: npm start  -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jai Marothiya</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="icon" type="image/x-icon" href="/image/favicon.ico" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="bg-[#0F363D] transition-all">
+    <nav
+      class="bg-[#0c2f36] flex flex-col justify-center h-auto w-[100%] fixed top-0 z-10"
+    >
+      <div
+        class="navbar flex justify-between items-center px-2 py-1 laptop:px-4 w-[88%] mx-auto"
+      >
+        <div class="flex justify-between w-full laptop:hidden">
+          <div class="search laptop:hidden py-4">
+            <div class="flex">
+              <img
+                class="rounded-full w-12 h-12"
+                src="/image/photo.jpg"
+                alt=""
+              />
+              <div class="pl-4 w-fit">
+                <h1 class="text-white text-xl font-sans">Jai Marothiya</h1>
+                <p class="text-white text-sm font-[Inter]">
+                  Full Stack Developer
+                </p>
+              </div>
+            </div>
+            <div class="hidden toggle">
+              <ul class="px-0 py-4 w-fit">
+                <li>
+                  <a href="#home-section" class="fitems py-4 px-0 hover:underline">Home</a>
+                </li>
+                <li>
+                  <a href="#about-section" class="fitems py-4 px-0 underline-offset-4 hover:underline hover:text-[#daa49c]">About</a>
+                </li>
+                <li>
+                  <a href="#Education-section" class="fitems py-4 px-0 underline-offset-4 hover:underline hover:text-[#daa49c]"
+                    >Education</a
+                  >
+                </li>
+                <li>
+                  <a href="#Courses-section" class="fitems py-4 px-0 underline-offset-4 hover:underline hover:text-[#daa49c]"
+                    >Courses & Skills</a
+                  >
+                </li>
+                <li>
+                  <a href="#Project-section" class="fitems py-4 px-0 underline-offset-4 hover:underline hover:text-[#daa49c]"
+                    >Projects</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#Contact-section"
+                    class="fitems py-4 px-0 text-[#daa49c] underline-offset-4 hover:underline hover:text-[#daa49c]"
+                    >Contact</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="flex flex-col">
+            <div
+              class="hamburger inline-block py-5 float-right pl-28 cursor-pointer laptop:hidden"
+            >
+              <div class="line h-0.5 w-6 my-1 bg-white"></div>
+              <div class="line h-0.5 w-6 my-1 bg-white"></div>
+              <div class="line h-0.5 w-6 my-1 bg-white"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="logo hidden laptop:flex text-center justify-between w-full">
+          <div class="py-3 w-fit hidden laptop:block">
+            <div class="flex flex-wrap">
+              <img
+                class="rounded-full w-14 h-14"
+                src="/image/photo.jpg"
+                alt=""
+              />
+              <div class="pl-4 w-fit">
+                <h1 class="text-white text-xl font-sans">Jai Marothiya</h1>
+                <p class="text-white text-sm font-[Inter]">
+                  Full Stack Developer
+                </p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="hidden features absolute w-fit laptop:w-auto laptop:static laptop:flex items-center justify-between mx-4 space-x-2"
+          >
+            <a
+              href="#home-section"
+              class="fitems text-[#daa49c] underline underline-offset-4 hover:underline"
+              >Home</a
+            >
+            <a
+              href="#about-section"
+              class="fitems transition-all duration-1000 underline-offset-4 hover:underline hover:text-[#daa49c] "
+              id="about"
+              >About</a
+            >
+            <a href="#Education-section" class="fitems underline-offset-4 hover:underline hover:text-[#daa49c]">Education</a>
+            <a href="#Courses-section" class="fitems underline-offset-4 hover:underline hover:text-[#daa49c]">Courses & Skills</a>
+            <a href="#Project-section" class="fitems underline-offset-4 hover:underline hover:text-[#daa49c]">Projects</a>
+            <a href="#Contact-section" class="fitems underline-offset-4 hover:underline hover:text-[#daa49c]">Contact</a>
+          </div>
+        </div>
+      </div>
+      <hr class="h-[0.25px] border-black" />
+    </nav>
+
+    <div
+      class="home max-w-[88vw] mx-auto h-[89vh] relative top-24 flex flex-col items-center"
+      id="home-section"
+    >
+      <div class="h-fit my-auto mx-8">
+        <h1
+          class="text-4xl tablet:text-6xl py-3 font-[Inter] font-extrabold text-white text-center"
+        >
+          WELCOME<span class="text-[#daa49c]">, I'M</span>
+        </h1>
+        <h1
+          class="text-4xl tablet:text-6xl leading-relaxed font-[Inter] py-3 font-extrabold text-[#daa49c] text-center"
+        >
+          JAI MAROTHIYA
+        </h1>
+        <div class="text-center">
+          <button
+            class="w-fit px-5 py-2 font-semibold text-2xl shadow-lg bg-[#1c4a54] font-[Inter] text-[#daa49c] rounded-md border-none hover:bg-[#daa49c] hover:text-white hover:scale-110 transition-all ease-in-out duration-1000"
+          >
+            <a href="/image/CV_Jai_Marothiya.pdf" download="CV_Jai_Marothiya"
+              >Resume</a
+            >
+          </button>
+        </div>
+        <hr class="my-3" />
+        <p
+          class="text-2xl font-[Inter] font-medium text-white text-center tablet:py-6"
+        >
+          I'm a
+          <span
+            class="intro text-2xl font-[Inter] font-medium text-[#daa49c] text-center tablet:py-6"
+          ></span>
+        </p>
+      </div>
+    </div>
+
+    <div class="About max-w-[88vw] mx-auto my-40 h-full" id="about-section">
+      <div class="flex flex-col justify-center items-center">
+        <h1
+          class="text-5xl tablet:text-8xl py-6 font-[Inter] font-extrabold text-[#daa49c] text-center"
+        >
+          About Me
+        </h1>
+        <hr class="mb-12 text-white w-[88vw]" />
+        <p
+          class="text-base tablet:text-xl font-[Inter] font-extralight text-white text-center py-1 tablet:py-3"
+        >
+          I am a third year undergraduate student of the department of
+          Mechanical Engineering at IIT Kharagpur.
+        </p>
+        <p
+          class="text-base tablet:text-xl font-[Inter] font-extralight text-white text-center py-1 tablet:py-3 intro"
+        >
+          I've a good hold over HTML and CSS with Tailwind Framework.
+        </p>
+        <p
+          class="text-base tablet:text-xl font-[Inter] font-extralight text-white text-center py-1 tablet:py-3 intro"
+        >
+          I'm also well versed with C++, Python and JavaScript along with
+          ReactJS Framework.
+        </p>
+      </div>
+    </div>
+
+    <div
+      class="Education max-w-[88vw] mx-auto flex flex-col justify-center items-center my-60 laptop:my-16 pc:my-10 pc:gap-8"
+    >
+      <div>
+        <h1
+          class="text-5xl tablet:text-8xl pb-10 laptop:pt-6 laptop:pb-8 font-[Inter] font-extrabold text-[#daa49c] text-center"
+          id="Education-section"
+        >
+          Education
+        </h1>
+      </div>
+      <div
+        class="grid grid-rows-3 laptop:grid-cols-3 laptop:grid-rows-1 gap-5 justify-between"
+      >
+        <div class="education">
+          <h1
+            class="text-xl tablet:text-3xl py-6 font-[Inter] font-medium text-[#daa49c]"
+          >
+            Integrated Bachelors & Masters
+          </h1>
+          <span
+            class="text-xsm tablet:text-sm py-3 font-[Inter] font-extralight text-white mx-auto"
+            >IIT KHARAGPUR</span
+          >
+          <p
+            class="text-sm tablet:text-base py-3 font-[Inter] font-light text-white"
+          >
+            Served as General Secretary, Secretary Bridge and NSS Unit Leader
+            while maintaining a CG of 8.35
+          </p>
+        </div>
+        <div class="education">
+          <h1
+            class="text-xl tablet:text-3xl py-6 font-[Inter] font-medium text-[#daa49c]"
+          >
+            Senior Secondary (CBSE Board)
+          </h1>
+          <span
+            class="text-xsm tablet:text-sm py-3 font-[Inter] font-extralight text-white text-center"
+            >Central Academy</span
+          >
+          <p
+            class="text-sm tablet:text-base py-3 font-[Inter] font-light text-white"
+          >
+            Passed the XII standard with PCM + Physical Education, with an
+            aggregate of 92.6%.
+          </p>
+        </div>
+        <div class="education">
+          <h1
+            class="text-xl tablet:text-3xl py-6 font-[Inter] font-medium text-[#daa49c]"
+          >
+            Secondary Education (CBSE Board)
+          </h1>
+          <span
+            class="text-xsm tablet:text-sm py-3 font-[Inter] font-extralight text-white text-center"
+            >Demonstration Multipurpose School</span
+          >
+          <p
+            class="text-sm tablet:text-base py-3 font-[Inter] font-light text-white"
+          >
+            Passed the X standard with PCMB + Social-Science + Hindi, with an
+            aggregate of 88.4%.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="Projects max-w-[88vw] mx-auto flex flex-col justify-center items-center my-60 tablet:my-80 laptop:my-48 pc:my-48 pc:gap-8"
+    >
+      <div>
+        <h1
+          class="text-5xl tablet:text-8xl pb-16 laptop:pt-6 laptop:pb-20 font-[Inter] font-extrabold text-[#daa49c] text-center"
+          id="Project-section"
+        >
+          My Projects
+        </h1>
+      </div>
+
+      <div
+        class="grid grid-cols-1 laptop:grid-cols-2 laptop:gap-8 text-center pb-20"
+      >
+        <a
+          href="https://github.com/Jai-Marothiya/Funcky-Charts"
+          target="_blank"
+          class="col-span-2"
+        >
+          <div class="project bg-[url('/image/chart.jpg')] bg-center">
+            <h1
+              class="text-xl tablet:text-3xl py-6 font-[Inter] font-medium text-[white]"
+            >
+              Customize Chart Builder
+            </h1>
+            <hr class="w-8 text-center mx-auto border-[#daa49c]" />
+            <p
+              class="text-sm tablet:text-base py-3 font-[Inter] font-medium text-white"
+            >
+              Self Project
+            </p>
+          </div>
+        </a>
+        <a href="https://reactjs-seafood-market.netlify.app/" target="_blank">
+          <div
+            class="project bg-[url('/image/nick-karvounis-CbmWPbEdjyQ-unsplash.jpg')]"
+          >
+            <h1
+              class="text-xl tablet:text-3xl py-6 font-[Inter] font-medium text-[white]"
+            >
+              Online Seafood Market
+            </h1>
+            <hr class="w-8 text-center mx-auto border-[#daa49c]" />
+            <p
+              class="text-sm tablet:text-base py-3 font-[Inter] font-medium text-white"
+            >
+              Self Project
+            </p>
+          </div>
+        </a>
+        <a
+          href="https://jai-marothiya-react-dashboard.netlify.app/"
+          target="_blank"
+        >
+          <div class="project bg-[url('/image/dashboard.png')]">
+            <h1
+              class="text-xl tablet:text-3xl py-6 font-[Inter] font-medium text-[white]"
+            >
+              Admin Dashboard
+            </h1>
+            <hr class="w-8 text-center mx-auto border-[#daa49c]" />
+            <p
+              class="text-sm tablet:text-base py-3 font-[Inter] font-medium text-white"
+            >
+              Self Project
+            </p>
+          </div>
+        </a>
+        <a href="https://gorgeous-kangaroo-57ca50.netlify.app" target="_blank">
+          <div class="project bg-[url('/image/drum.jpg')]">
+            <h1
+              class="text-xl tablet:text-3xl py-6 font-[Inter] font-medium text-[white]"
+            >
+              Awesome Drum Kit
+            </h1>
+            <hr class="w-8 text-center mx-auto border-[#daa49c]" />
+            <p
+              class="text-sm tablet:text-base py-3 font-[Inter] font-medium text-white"
+            >
+              Self Project
+            </p>
+          </div>
+        </a>
+        <a
+          href="https://astonishing-cactus-3cbfda.netlify.app/"
+          target="_blank"
+        >
+          <div class="project bg-[url('/image/voice.jpg')]">
+            <h1
+              class="text-xl tablet:text-3xl py-6 font-[Inter] font-medium text-[white]"
+            >
+              The Voiceinator 5000
+            </h1>
+            <hr class="w-8 text-center mx-auto border-[#daa49c]" />
+            <p
+              class="text-sm tablet:text-base py-3 font-[Inter] font-medium text-white"
+            >
+              Self Project
+            </p>
+          </div>
+        </a>
+        <a href="https://employee-detail-app.netlify.app/" target="_blank">
+          <div class="project bg-[url('/image/employee1.jpg')]">
+            <h1
+              class="text-xl tablet:text-3xl py-6 font-[Inter] font-medium text-white"
+            >
+              Employee Details Application
+            </h1>
+            <hr class="w-8 text-center mx-auto border-[#daa49c]" />
+            <p
+              class="text-sm tablet:text-base py-3 font-[Inter] font-medium text-white"
+            >
+              Self Project
+            </p>
+          </div>
+        </a>
+        <a href="https://curious-torte-b481ee.netlify.app" target="_blank">
+          <div class="project bg-[url('/image/microsoft.jpg')]">
+            <h1
+              class="text-xl tablet:text-3xl py-6 font-[Inter] font-medium text-white"
+            >
+              Microsoft Clone
+            </h1>
+            <hr class="w-8 text-center mx-auto border-[#daa49c]" />
+            <p
+              class="text-sm tablet:text-base py-3 font-[Inter] font-medium text-white"
+            >
+              Self Project
+            </p>
+          </div>
+        </a>
+        <a href="https://cute-khapse-e987ce.netlify.app" target="_blank">
+          <div class="project bg-[url('/image/clock.jpg')]">
+            <h1
+              class="text-xl tablet:text-3xl py-6 font-[Inter] font-medium text-white"
+            >
+              Cool Clock
+            </h1>
+            <hr class="w-8 text-center mx-auto border-[#daa49c]" />
+            <p
+              class="text-sm tablet:text-base py-3 font-[Inter] font-medium text-white"
+            >
+              Self Project
+            </p>
+          </div>
+        </a>
+        <a
+          href="https://dynamic-stroopwafel-b3c59c.netlify.app"
+          target="_blank"
+        >
+          <div class="project bg-[url('/image/E-commerce.jpg')]">
+            <h1
+              class="text-xl tablet:text-3xl py-6 font-[Inter] font-medium text-white"
+            >
+              E-commerce Website
+            </h1>
+            <hr class="w-8 text-center mx-auto border-[#daa49c]" />
+            <p
+              class="text-sm tablet:text-base py-3 font-[Inter] font-medium text-white"
+            >
+              Self Project
+            </p>
+          </div>
+        </a>
+        <a href="https://jai-marothiya.github.io/Snake-game/" target="_blank">
+          <div class="project bg-[url('/image/snake-game.jpg')]">
+            <h1
+              class="text-xl tablet:text-3xl py-6 font-[Inter] font-medium text-white"
+            >
+              Snake Game
+            </h1>
+            <hr class="w-8 text-center mx-auto border-[#daa49c]" />
+            <p
+              class="text-sm tablet:text-base py-3 font-[Inter] font-medium text-white"
+            >
+              Self Project
+            </p>
+          </div>
+        </a>
+        <a href="https://remarkable-treacle-b16dc8.netlify.app" target="_blank">
+          <div class="project bg-[url('/image/calci.jpg')]">
+            <h1
+              class="text-xl tablet:text-3xl py-6 font-[Inter] font-medium text-white"
+            >
+              Calculator
+            </h1>
+            <hr class="w-8 text-center mx-auto border-[#daa49c]" />
+            <p
+              class="text-sm tablet:text-base py-3 font-[Inter] font-medium text-white"
+            >
+              Self Project
+            </p>
+          </div>
+        </a>
+      </div>
+    </div>
+
+    <div
+      class="Courses max-w-[88vw] mx-auto flex flex-col justify-center items-center my-60 tablet:my-80 laptop:my-48 pc:my-48 pc:gap-8"
+    >
+      <div>
+        <h1
+          class="text-5xl tablet:text-8xl pb-16 laptop:pt-6 laptop:pb-20 font-[Inter] font-extrabold text-[#daa49c] text-center"
+          id="Courses-section"
+        >
+          Relevant Courses
+        </h1>
+      </div>
+
+      <div class="grid grid-cols-1 laptop:grid-cols-2 laptop:gap-8 text-center">
+        <div class="course">
+          <p
+            class="text-sm tablet:text-base py-3 font-[Inter] font-light text-white"
+          >
+            PROGRAMMING AND DATA STRUCTURES THEORY
+          </p>
+          <hr class="w-8 text-center mx-auto border-[#daa49c]" />
+          <h1
+            class="text-xl tablet:text-3xl py-6 font-[Inter] font-medium text-white"
+          >
+            CS10003
+          </h1>
+        </div>
+        <div class="course">
+          <p
+            class="text-sm tablet:text-base py-3 font-[Inter] font-light text-white"
+          >
+            PROGRAMMING AND DATA STRUCTURES TUTORIAL AND LABORATORY
+          </p>
+          <hr class="w-8 text-center mx-auto border-[#daa49c]" />
+          <h1
+            class="text-xl tablet:text-3xl py-6 font-[Inter] font-medium text-white"
+          >
+            CS19003
+          </h1>
+        </div>
+        <div class="course">
+          <p
+            class="text-sm tablet:text-base py-3 font-[Inter] font-light text-white"
+          >
+            FUNDAMENTALS OF EMBEDDED CONTROL AND SOFTWARE
+          </p>
+          <hr class="w-8 text-center mx-auto border-[#daa49c]" />
+          <h1
+            class="text-xl tablet:text-3xl py-6 font-[Inter] font-medium text-white"
+          >
+            AT30001
+          </h1>
+        </div>
+        <div class="course">
+          <p
+            class="text-sm tablet:text-base py-3 font-[Inter] font-light text-white"
+          >
+            OPERATIONS RESEARCH
+          </p>
+          <hr class="w-8 text-center mx-auto border-[#daa49c]" />
+          <h1
+            class="text-xl tablet:text-3xl py-6 font-[Inter] font-medium text-white"
+          >
+            IM20204
+          </h1>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="Contact max-w-[100vw] flex flex-col justify-center items-center laptop:my-0 pc:gap-8"
+      id="Contact-section"
+    >
+      <div
+        class="flex items-center justify-center w-full"
+        style="
+          background-image: url(/image/contact_background.jpg);
+          background-repeat: no-repeat;
+          background-size: cover;
+        "
+      >
+        <h1
+          class="text-5xl tablet:text-8xl font-[Inter] text-[#9d9ba7] font-extrabold text-center"
+          style="padding: 7rem 2rem"
+        >
+          Got an intersting idea ?
+          <br />
+          Let's Talk
+        </h1>
+      </div>
+    </div>
+
+    <div
+      class="Contact max-w-[88vw] mx-auto flex flex-col justify-center items-center my-20"
+      id="Contact-section"
+    >
+      <div>
+        <h1
+          class="text-5xl tablet:text-6xl pb-10 laptop:pt-6 laptop:pb-8 font-[Inter] font-extrabold text-white first-line:text-center"
+        >
+          Contact Me
+        </h1>
+        <p
+          class="text-lg tablet:text-2xl py-3 font-[Inter] font-light text-white text-center"
+        >
+          Feel free to reach out to me.
+        </p>
+      </div>
+
+      <div
+        class="grid grid-cols-1 tablet:grid-cols-2 laptop:grid-cols-4 gap-5 tablet:gap-8 my-20 justify-center items-center"
+      >
+        <div class="flex flex-col justify-center items-center">
+          <div
+            class="w-20 h-20 rounded-full bg-[#305961] flex items-center justify-center my-8"
+          >
+            <img
+              src="/image/icons8-home-address-50.png"
+              class="w-12"
+              alt=""
+              srcset=""
+            />
+          </div>
+          <h1 class="text-white text-xl font-sans pb-2">ADDRESS</h1>
+          <a
+            href="https://llrhall.iitkgp.ac.in/"
+            class="text-white text-base font-[Inter]"
+            target="_blank"
+            >LLR Hall, IIT KGP</a
+          >
+        </div>
+        <div class="flex flex-col justify-center items-center">
+          <div
+            class="w-20 h-20 rounded-full bg-[#305961] flex items-center justify-center my-8"
+          >
+            <img
+              src="/image/icons8-phone-48.png"
+              class="w-12"
+              alt=""
+              srcset=""
+            />
+          </div>
+          <h1 class="text-white text-xl font-sans pb-2">CONTACT NUMBER</h1>
+          <a
+            href="tel:9351252813"
+            target="_blank"
+            class="text-white text-base font-[Inter]"
+            >91-9351252813</a
+          >
+        </div>
+        <div class="flex flex-col justify-center items-center">
+          <div
+            class="w-20 h-20 rounded-full bg-[#305961] flex items-center justify-center my-8"
+          >
+            <img
+              src="/image/icons8-secured-letter-50.png"
+              class="w-12"
+              alt=""
+              srcset=""
+            />
+          </div>
+          <h1 class="text-white text-xl font-sans pb-2">EMAIL ADDRESS</h1>
+          <a
+            href="mailto:jaimarothiya48@gmail.com"
+            target="_blank"
+            class="text-white text-base font-[Inter]"
+            >jaimarothiya48@gmail.com</a
+          >
+        </div>
+        <div class="flex flex-col justify-center items-center">
+          <div
+            class="w-20 h-20 rounded-full bg-[#305961] flex items-center justify-center my-8"
+          >
+            <img
+              src="/image/icons8-globe-26.png"
+              class="w-12"
+              alt=""
+              srcset=""
+            />
+          </div>
+          <h1 class="text-white text-xl font-sans pb-2">WEBSITE</h1>
+          <a
+            href="https://github.com/Jai-Marothiya/Portfolio"
+            class="text-white text-base font-[Inter]"
+            target="_blank"
+            >jaimarothiya.github.io</a
+          >
+        </div>
+      </div>
+    </div>
+
+    <div class="flex flex-col justify-center items-center">
+      <h1 class="text-white text-2xl font-sans py-8">Connect with me</h1>
+      <div>
+        <ul class="flex gap-5">
+          <li>
+            <a
+              href="https://www.linkedin.com/in/jai-marothiya-7aa9071ba/"
+              target="_blank"
+              ><img
+                src="/image/icons8-linkedin-2-30.png"
+                class="w-8 laptop:w-12"
+                alt=""
+                srcset=""
+            /></a>
+          </li>
+          <li>
+            <a href="https://github.com/Jai-Marothiya" target="_blank"
+              ><img
+                src="/image/icons8-github-30.png"
+                class="w-8 laptop:w-12"
+                alt=""
+                srcset=""
+            /></a>
+          </li>
+          <li>
+            <a
+              href="https://www.facebook.com/jai.marothiya.1?mibextid=ZbWKwL"
+              target="_blank"
+              ><img
+                src="/image/icons8-facebook-f-30.png"
+                class="w-8 laptop:w-12"
+                alt=""
+                srcset=""
+            /></a>
+          </li>
+          <li>
+            <a href="https://wa.link/i0b8zw" target="_blank"
+              ><img
+                src="/image/icons8-whatsapp-24.png"
+                class="w-8 laptop:w-12"
+                alt=""
+                srcset=""
+            /></a>
+          </li>
+          <li>
+            <a href="https://twitter.com/JaiMarothiya" target="_blank"
+              ><img
+                src="/image/icons8-twitter-50.png"
+                class="w-8 laptop:w-12"
+                alt=""
+                srcset=""
+            /></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <footer class="py-20 flex justify-center items-center">
+      <h1 class="text-white text-xl font-sans text-center">
+        Copyright ©2022 All rights reserved <br />
+        Made with ❤️ by Jai Marothiya
+      </h1>
+    </footer>
+
+    <script src="./navbar.js" type="module"></script>
+    <script src="./home.js" type="module"></script>
+    <script src="./courses.js" type="module"></script>
+  </body>
+</html>

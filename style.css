@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+
+.fitems {
+  @apply focus:text-[#daa49c] decoration-1 cursor-pointer text-[15px] text-white px-3 my-4 font-[Inter] font-light;
+}
+
+.project {
+  @apply px-6 py-4 my-3 rounded-md laptop:px-12 laptop:py-14 bg-cover hover:bg-[#daa49c] hover:scale-105 transition-all duration-700 ease-in-out;
+}
+
+.education {
+  @apply px-6 py-4 my-5 rounded-md laptop:px-12 laptop:py-14 bg-[#305961] hover:scale-105 transition-all duration-700 ease-in-out;
+}
+
+.course {
+  @apply px-6 py-4 my-3 rounded-md laptop:px-12 laptop:py-14 bg-[#305961] hover:bg-[#daa49c] hover:scale-105 transition-all duration-700 ease-in-out;
+}
+
+.show {
+  @apply block;
+}
+
+@tailwind utilities;
